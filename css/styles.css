@@ -259,7 +259,7 @@ ul {
 .backdrop.is-hidden .modal {
   opacity: 0;
   transform: translateX(-50%) translateY(-70%);
-
+  transition: transform 250ms var(--time-function), opacity 250ms var(--time-function);
 }
 .modal-btn {
   position: absolute;
@@ -548,6 +548,7 @@ ul {
 }
 .portfolio-item:hover .overley {
   transform: translateY(0);
+}
 
 .portfolio-tumb {
   position: relative;
